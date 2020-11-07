@@ -11,10 +11,11 @@ using Microsoft.Extensions.Hosting;
 
 namespace WebAppli
 {
-    public class Startup
+    public class    Startup
     {
         public Startup(IConfiguration configuration)
-        {
+        {   
+            // change made
             Configuration = configuration;
         }
 
